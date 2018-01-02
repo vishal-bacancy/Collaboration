@@ -8,6 +8,9 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 
+	EditText et;
+	TextView tv;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

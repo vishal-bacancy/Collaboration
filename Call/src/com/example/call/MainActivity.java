@@ -13,7 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		Uri number = Uri.parse("tel:" + "9898989898");
+		Uri number = Uri.parse("tel:" + "8888888888");
 		Intent intent = new Intent(Intent.ACTION_CALL, number);
 		startActivity(intent);
 	}
